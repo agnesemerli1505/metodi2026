@@ -1,0 +1,13 @@
+giorni=[' lunedì', ' martedì',' mercoledì',' giovedì',' venerdì',' sabato',' domenica']
+ottobre= giorni*5
+del ottobre[:3]
+del ottobre[-1:]
+for i in ottobre:
+    print( i)
+dp={}
+
+for i in range(len(ott)):
+    dp[i+1] = ottobre[i]
+
+print(dp)
+    
