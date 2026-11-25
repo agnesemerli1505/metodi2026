@@ -19,13 +19,13 @@ df3_mens = pd.read_csv('4FGL_J2202.7+4216_monthly_17_11_2026.csv')
 df4_sett = pd.read_csv('4FGL_J2253.9+1609_weekly_17_11_2026.csv')
 df4_mens = pd.read_csv('4FGL_J2253.9+1609_monthly_17_11_2026.csv')
 
-# Creazione delle sorgenti
+# sorgenti
 s1 = Sorgente(df1_sett, df1_mens, 'J1229.0+0202')
 s2 = Sorgente(df2_sett, df2_mens, 'J1555.7+1111')
 s3 = Sorgente(df3_sett, df3_mens, 'J2202.7+4216')
 s4 = Sorgente(df4_sett, df4_mens, 'J2253.9+1609')
 
-
+# sorgente a piacere: grafico e serie sintetiche
 s3.grafico()
 
 s3.graf_sintetico(
