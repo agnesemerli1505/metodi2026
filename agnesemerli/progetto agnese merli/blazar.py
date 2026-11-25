@@ -26,9 +26,9 @@ s3 = Sorgente(df3_sett, df3_mens, 'J2202.7+4216')
 s4 = Sorgente(df4_sett, df4_mens, 'J2253.9+1609')
 
 # sorgente a piacere: grafico e serie sintetiche
-s3.grafico()
+s2.grafico()
 
-s3.graf_sintetico(
+s2.graf_sintetico(
     s3.x_settimanale,
     s3.y_settimanale
 )
